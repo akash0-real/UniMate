@@ -7,6 +7,7 @@ A student connection platform that brings your campus community together. UniMat
 ## 🌟 About
 
 UniMate is a student-focused social platform where you can:
+
 - **Connect** with fellow students from your university
 - **Collaborate** on projects, study groups, and academic initiatives
 - **Discover** events, clubs, and opportunities on campus
@@ -32,17 +33,18 @@ UniMate requires a verified college email address to sign up, ensuring that our 
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **JavaScript/TypeScript** - Core web development
 - **React Native** - Cross-platform mobile development
 
 ### Backend
-- **Node.js** - Server-side runtime
-- **Express** - Web framework
-- **Database** - [Your database choice]
+
+- **Spring boot** - for backend
 
 ### Mobile
-- **iOS** - Swift
-- **Android** - Kotlin/Java
+
+- **iOS** - react-native
+- **Android** - react-native
 
 ## 🚀 Getting Started
 
@@ -50,23 +52,25 @@ UniMate requires a verified college email address to sign up, ensuring that our 
 
 - Node.js (v14 or higher)
 - npm or yarn
-- [Additional requirements based on your setup]
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/akash0-real/UniMate.git
    cd UniMate
    ```
 
 2. **Install backend dependencies**
+
    ```bash
    cd backend
    npm install
    ```
 
 3. **Install frontend dependencies**
+
    ```bash
    cd ../frontend
    npm install
@@ -78,30 +82,21 @@ UniMate requires a verified college email address to sign up, ensuring that our 
    cp .env.example .env
    # Add your configuration variables
    ```
-
-5. **Run the application**
-   
-   Backend:
-   ```bash
-   cd backend
-   npm run dev
    ```
-   
-   Frontend:
-   ```bash
-   cd frontend
-   npm start
+
    ```
 
 ## 📱 Mobile Development
 
 ### iOS Setup
+
 ```bash
 cd ios
 pod install
 ```
 
 ### Android Setup
+
 ```bash
 cd android
 ./gradlew build
@@ -127,11 +122,11 @@ We welcome contributions from the student developer community! Here's how you ca
 ## 🐛 Bug Reports
 
 Found a bug? Please open an issue with:
+
 - A clear description of the problem
 - Steps to reproduce
 - Expected vs actual behavior
 - Screenshots (if applicable)
-
 
 ## 👥 Team
 
@@ -142,8 +137,8 @@ This project is developed and maintained by student developers who understand th
 ## 📧 Contact
 
 For questions, suggestions, or feedback:
+
 - Open an issue on GitHub
 - Email: [Your contact email]
-
 
 **UniMate** - Connecting students, one campus at a time.
